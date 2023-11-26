@@ -1,0 +1,429 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.27f1 (ca3ffb99bcc6) revision 13254651'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ru' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Unity Projects/My project
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+57747
+Successfully changed project path to: C:/Unity Projects/My project
+C:/Unity Projects/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [51836] Host "[IP] 192.168.10.92 [Port] 0 [Flags] 2 [Guid] 3051274378 [EditorId] 3051274378 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1CJ2JDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [51836] Host "[IP] 192.168.10.92 [Port] 0 [Flags] 2 [Guid] 3051274378 [EditorId] 3051274378 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1CJ2JDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 76.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.27f1 (ca3ffb99bcc6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity Projects/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3734
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005688 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 406 ms
+Refreshing native plugins compatible for Editor in 59.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (873ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (117ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (677ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (514ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003616 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\My project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 54.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Domain Reload Profiling:
+	ReloadAssembly (854ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (677ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3165 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 3647.
+Memory consumption went from 130.0 MB to 129.2 MB.
+Total: 4.491000 ms (FindLiveObjects: 0.447900 ms CreateObjectMapping: 0.144100 ms MarkObjects: 3.591600 ms  DeleteObjects: 0.305700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 334943.974260 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_BucketHandle.prefab
+  artifactKey: Guid(1396ddf9e436d2944a747eef35492c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_BucketHandle.prefab using Guid(1396ddf9e436d2944a747eef35492c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86a0321f5b9f40e88b47235c3710235') in 0.190945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_SoilBorder_Med.prefab
+  artifactKey: Guid(24c45566a3147af4bbc7f9817392fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_SoilBorder_Med.prefab using Guid(24c45566a3147af4bbc7f9817392fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd4c4ab56e684651a2db10ffc5b0a83') in 0.069494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Jar_Sml.prefab
+  artifactKey: Guid(5892cd52a43752c4693095732741bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Jar_Sml.prefab using Guid(5892cd52a43752c4693095732741bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f7c9edabbde125e009eaea91530287') in 0.050096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_TreeTrunk_01.prefab
+  artifactKey: Guid(72a74b8b62e10384c936c27231bc8985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_TreeTrunk_01.prefab using Guid(72a74b8b62e10384c936c27231bc8985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1392e2d93742617eb677450339f6b97') in 0.053810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Well_01.prefab
+  artifactKey: Guid(cf8a72772c68f1c4eb46c0a75ef46db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Well_01.prefab using Guid(cf8a72772c68f1c4eb46c0a75ef46db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4123a94a72ddbb660e6cf909c24359') in 0.057703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Cup.prefab
+  artifactKey: Guid(d121abcf5f23366418041ece6b787bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Cup.prefab using Guid(d121abcf5f23366418041ece6b787bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc06766ed169628eb7b7069cd32cfd7') in 0.052334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_PortchRoof_01.prefab
+  artifactKey: Guid(5f094bd35d35b334e8e53da4a4123e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_PortchRoof_01.prefab using Guid(5f094bd35d35b334e8e53da4a4123e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6968df6fb9d46f88b1a3745d54e779fe') in 0.054463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinSingle.prefab
+  artifactKey: Guid(5c8d57e6905a9c44097edc7259b071de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinSingle.prefab using Guid(5c8d57e6905a9c44097edc7259b071de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23bd59fad6b6b0180b97b59633207d4') in 0.054744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinGroup_Sml.prefab
+  artifactKey: Guid(dd6d94c9e443c554389116b7fa3cf6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinGroup_Sml.prefab using Guid(dd6d94c9e443c554389116b7fa3cf6c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eed199119c5889b55bee20c1d65e650') in 0.051293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WheelHandle.prefab
+  artifactKey: Guid(63ac0614c8f05d04fbecf4ed4de62605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WheelHandle.prefab using Guid(63ac0614c8f05d04fbecf4ed4de62605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a02d963d7a500d977aca978d884edb') in 0.052910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_PlatformStone_SemiCircle.prefab
+  artifactKey: Guid(3ebcec4a191cd854ab0b2c088d5164dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_PlatformStone_SemiCircle.prefab using Guid(3ebcec4a191cd854ab0b2c088d5164dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e463311cd2f28f09622d1de843c76c') in 0.054512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/MVillage_WellsProps_Albedo.tif
+  artifactKey: Guid(690f0d13941dc1d409b9beb42be7b97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/MVillage_WellsProps_Albedo.tif using Guid(690f0d13941dc1d409b9beb42be7b97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4e0ea65fd7e3cd17fd67aa72e619bc') in 0.024589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_SoilBorder_Med_Part.prefab
+  artifactKey: Guid(63cfa133c0ff6c443ba6ed437d8b68e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_SoilBorder_Med_Part.prefab using Guid(63cfa133c0ff6c443ba6ed437d8b68e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0235a3e4178ad3cee695a75506c301e5') in 0.045415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_02.prefab
+  artifactKey: Guid(c352b2314ec3bfe46acd7939389489e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_02.prefab using Guid(c352b2314ec3bfe46acd7939389489e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d8dda7d4dcfcb1f964691d03570b57') in 0.045638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_TreeTrunk_03.prefab
+  artifactKey: Guid(18a5dc24a73cc7e48bf38b7dc7618ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_TreeTrunk_03.prefab using Guid(18a5dc24a73cc7e48bf38b7dc7618ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc9058f594bc59685306c6e24a5585c') in 0.050661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Rope_03.prefab
+  artifactKey: Guid(7e4754d888b4fcd4aad9cdcaf24f86b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Rope_03.prefab using Guid(7e4754d888b4fcd4aad9cdcaf24f86b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd160c5d2bc52677bb75ddc6a7cfccab') in 0.050160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_02_Half_A.prefab
+  artifactKey: Guid(9a336d280155faa488189bf6b1f973f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_02_Half_A.prefab using Guid(9a336d280155faa488189bf6b1f973f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc75c4e8ee08e72298cf31d6f91c39f0') in 0.049364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_TreeTrunk_05.prefab
+  artifactKey: Guid(064d5eea756812a4faa56614d9c3d46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_TreeTrunk_05.prefab using Guid(064d5eea756812a4faa56614d9c3d46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b555c87d84b7ab9123711091f295a9a6') in 0.053158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinGround_Lrg.prefab
+  artifactKey: Guid(e969b5e3647892a4c80d237fa6eafdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinGround_Lrg.prefab using Guid(e969b5e3647892a4c80d237fa6eafdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7ef050edc3584ec348fb8359235de3') in 0.048910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Driftwood_Med.prefab
+  artifactKey: Guid(c4729217b8d16d945bd515fe26ee71fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Driftwood_Med.prefab using Guid(c4729217b8d16d945bd515fe26ee71fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df9c4a5b7c98a024a242cadffc2e40f') in 0.048889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.867425 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinGround_Lrg.prefab
+  artifactKey: Guid(e969b5e3647892a4c80d237fa6eafdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinGround_Lrg.prefab using Guid(e969b5e3647892a4c80d237fa6eafdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d40810ed776c2ba5303be46c6702a3d') in 0.059080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_02_Curved.prefab
+  artifactKey: Guid(5c095e699fdfe6b449e131a6ce011943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_02_Curved.prefab using Guid(5c095e699fdfe6b449e131a6ce011943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d88398f88e129c3168534138d87e13') in 0.071362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Well_02.prefab
+  artifactKey: Guid(cb98d964212f76f48820ad2b52059a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Well_02.prefab using Guid(cb98d964212f76f48820ad2b52059a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6327d779b1e33134bc611c1c83f1eb') in 0.060690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Rope_02.prefab
+  artifactKey: Guid(d594baa151af66e429698ef698d55980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Rope_02.prefab using Guid(d594baa151af66e429698ef698d55980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a8160fa02d38fda837be9e92760ea0') in 0.064060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Driftwood_Lrg.prefab
+  artifactKey: Guid(0eb4a0460199e9f408a14f81159c6f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Driftwood_Lrg.prefab using Guid(0eb4a0460199e9f408a14f81159c6f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d49738e6a91b344aacbb48fa25c4949') in 0.063892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_PortchRoof_01.prefab
+  artifactKey: Guid(5f094bd35d35b334e8e53da4a4123e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_PortchRoof_01.prefab using Guid(5f094bd35d35b334e8e53da4a4123e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d40bc0655a5a6fc417687d13ea54dae') in 0.075500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_02_Half_B.prefab
+  artifactKey: Guid(f6efc14c9628e7e4792d9500664fe956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_02_Half_B.prefab using Guid(f6efc14c9628e7e4792d9500664fe956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9d6f75344f5867d7bfcb563628a906') in 0.082839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_01.prefab
+  artifactKey: Guid(221b839587991304b96446bf55ecd8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_01.prefab using Guid(221b839587991304b96446bf55ecd8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1952a3b0e6bd1ba0e0e82b915f23a9f2') in 0.072269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_SoilBorder_Med_Part.prefab
+  artifactKey: Guid(63cfa133c0ff6c443ba6ed437d8b68e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_SoilBorder_Med_Part.prefab using Guid(63cfa133c0ff6c443ba6ed437d8b68e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5c0d1666bb3d8554794cfd081c6731') in 0.075268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_TreeTrunk_02.prefab
+  artifactKey: Guid(759b5cb0ebdb994419ded7a1ad5b2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_TreeTrunk_02.prefab using Guid(759b5cb0ebdb994419ded7a1ad5b2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c8385323947ef566106a8a2f116ee8') in 0.076873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Vase.prefab
+  artifactKey: Guid(5df7febb28720444180503e3004da48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Vase.prefab using Guid(5df7febb28720444180503e3004da48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6095bc6ead596cdb2838c9923cd1f046') in 0.064753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Jar_Lrg.prefab
+  artifactKey: Guid(57b04b9918bbf394fb073643f896cbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Jar_Lrg.prefab using Guid(57b04b9918bbf394fb073643f896cbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afdd37538041eac9f6f5291b229a6c9') in 0.075145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.151117 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinGround_Lrg.prefab
+  artifactKey: Guid(e969b5e3647892a4c80d237fa6eafdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinGround_Lrg.prefab using Guid(e969b5e3647892a4c80d237fa6eafdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79dfe7ff4ba1c1de3b961a223d5dc9e') in 0.062556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_SoilBorder_Med.prefab
+  artifactKey: Guid(24c45566a3147af4bbc7f9817392fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_SoilBorder_Med.prefab using Guid(24c45566a3147af4bbc7f9817392fe5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7f5f5da2d5a647e1975441d5c5c870') in 0.066361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Rope_02.prefab
+  artifactKey: Guid(d594baa151af66e429698ef698d55980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Rope_02.prefab using Guid(d594baa151af66e429698ef698d55980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d7a60a5016dbb411a5044775fcef55') in 0.068234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Well_03.prefab
+  artifactKey: Guid(59545c9b2bac86f42b0fa882a3f8c242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Well_03.prefab using Guid(59545c9b2bac86f42b0fa882a3f8c242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '179b46258eb9d0d9e9fd7da561c00c2b') in 0.068282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinSingle.prefab
+  artifactKey: Guid(5c8d57e6905a9c44097edc7259b071de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinSingle.prefab using Guid(5c8d57e6905a9c44097edc7259b071de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2542f8cf6cb776dfd304006c311218c7') in 0.069531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_SoilBorder_Lrg.prefab
+  artifactKey: Guid(5ff713e77137fa84690b61c2ccd89bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_SoilBorder_Lrg.prefab using Guid(5ff713e77137fa84690b61c2ccd89bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c9db02f311079d9690291552c32e36') in 0.068935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_SoilBorder_Med_Part.prefab
+  artifactKey: Guid(63cfa133c0ff6c443ba6ed437d8b68e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_SoilBorder_Med_Part.prefab using Guid(63cfa133c0ff6c443ba6ed437d8b68e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ac026f1b06c5ad23bac96a822de1f1') in 0.065202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_PlatformStone_Part_Lrg.prefab
+  artifactKey: Guid(d329bab66b10f1943b0adb02f4f7fcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_PlatformStone_Part_Lrg.prefab using Guid(d329bab66b10f1943b0adb02f4f7fcb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fbd8b2a0aa600a6b6805cff65220d4') in 0.068099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Rope_03.prefab
+  artifactKey: Guid(7e4754d888b4fcd4aad9cdcaf24f86b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Rope_03.prefab using Guid(7e4754d888b4fcd4aad9cdcaf24f86b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aa63ab43ebc60e928812c86719fbed') in 0.068032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Driftwood_Med.prefab
+  artifactKey: Guid(c4729217b8d16d945bd515fe26ee71fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Driftwood_Med.prefab using Guid(c4729217b8d16d945bd515fe26ee71fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d367e4c076d233348b99d304bab38f3') in 0.068991 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

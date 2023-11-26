@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWS", "KWS.csproj", "{5BD6EE13-C4E0-96E9-32BB-8DDF230C481D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sc.utilities.screenshot.editor", "sc.utilities.screenshot.editor.csproj", "{17949391-851F-D4E4-3A0F-80359CD4D5F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BD6EE13-C4E0-96E9-32BB-8DDF230C481D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD6EE13-C4E0-96E9-32BB-8DDF230C481D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD6EE13-C4E0-96E9-32BB-8DDF230C481D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD6EE13-C4E0-96E9-32BB-8DDF230C481D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17949391-851F-D4E4-3A0F-80359CD4D5F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17949391-851F-D4E4-3A0F-80359CD4D5F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17949391-851F-D4E4-3A0F-80359CD4D5F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17949391-851F-D4E4-3A0F-80359CD4D5F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
