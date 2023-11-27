@@ -3,7 +3,7 @@ Shader "PlayableAds/IslandShader" {
 
   _Color("Color", Color) = (1,1,1,1)
   //_MainTex("Texture", 2D) = "white" {}
-  _BlendTex ("BlendTex", 2D) = "white" {}
+  [HideInInspector] _BlendTex ("BlendTex", 2D) = "white" {}
   [NoScaleOffset] _1Tex ("1Tex", 2D) = "white" {}
           _1Tiling ("1Tiling", Range(1,2000)) = 75
   [NoScaleOffset] _2Tex ("2Tex", 2D) = "white" {}
